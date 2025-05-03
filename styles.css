@@ -181,7 +181,7 @@ body {
 .skills__marquee-content {
     display: flex;
     gap: 50px;
-    animation: marquee 10s linear infinite;
+    animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {
