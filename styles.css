@@ -172,6 +172,48 @@ body {
     text-align: justify;
 }
 
+.skills__marquee-container {
+    margin: 20px auto 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.skills__marquee-content {
+    display: flex;
+    gap: 50px;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-122.7%);
+    }
+}
+
+.skills__item {
+    display: inline-flex;
+    width: 80px;
+    align-items: center;
+}
+
+.skills__icon-wrapper {
+    margin-right: 10px;
+    flex-basis: 24px;
+    flex-shrink: 0;
+}
+
+.skills__text {
+    color: var(--secondary-text-color);
+}
+
+.skills__icon {
+    fill: var(--text-decoration-color);
+}
+
+
 /*Experience and additional info styles*/
 
 .experiences {
